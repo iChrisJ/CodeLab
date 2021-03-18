@@ -5,4 +5,5 @@
 /.vs
 /CodeRepos/CodeInCS/obj
 /CodeRepos/.vs
-/CodeRepos/CodeInCS/CodeInCS.csproj.user
+/CodeRepos/CodingInterview/obj
+*.csproj.user

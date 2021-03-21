@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 /// <summary>
-/// LeetCode: 03 01 Duplication In Array
+/// 剑指Offer: 03 01 Duplication In Array
 /// </summary>
 namespace CodingInterview._03_01_Duplication_In_Array
 {

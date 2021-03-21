@@ -1,5 +1,5 @@
 ﻿/// <summary>
-/// LeetCode: 03 02 Find Duplication No Edit
+/// 剑指Offer: 03 02 Find Duplication No Edit
 /// </summary>
 namespace CodingInterview._03_02_Find_Duplication_No_Edit
 {

@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeInCS", "CodeInCS\CodeInCS.csproj", "{8A2D0DAB-07B9-456E-B357-C2E856A3FF89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingInterview", "CodingInterview\CodingInterview.csproj", "{5071BB95-80A4-4211-A2FF-FDC78A3C4E58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingInterview", "CodingInterview\CodingInterview.csproj", "{5071BB95-80A4-4211-A2FF-FDC78A3C4E58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{18F7427F-282B-4A2E-8507-59D8CB47A981}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5071BB95-80A4-4211-A2FF-FDC78A3C4E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5071BB95-80A4-4211-A2FF-FDC78A3C4E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5071BB95-80A4-4211-A2FF-FDC78A3C4E58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18F7427F-282B-4A2E-8507-59D8CB47A981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18F7427F-282B-4A2E-8507-59D8CB47A981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18F7427F-282B-4A2E-8507-59D8CB47A981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18F7427F-282B-4A2E-8507-59D8CB47A981}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

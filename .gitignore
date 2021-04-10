@@ -3,8 +3,7 @@
 ################################################################################
 
 /.vs
-/CodeRepos/CodeInCS/obj
+/CodeRepos/*/obj
 /CodeRepos/.vs
-/CodeRepos/CodingInterview/obj
 *.csproj.user
-/CodeRepos/CodeInCS/bin
+/CodeRepos/*/bin

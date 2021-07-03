@@ -68,4 +68,40 @@ namespace CodeInCS._0098_Validate_Binary_Search_Tree
 			return true;
 		}
 	}
+
+	public class Solution3
+	{
+		public bool IsValidBST(TreeNode root)
+		{
+			return IsBST(root).Value.Item1;
+		}
+
+		private (bool, long, long)? IsBST(TreeNode node)
+		{
+			if (node == null)
+				return null;
+
+			(bool, long, long)? left_res = IsBST(node.left);
+			(bool, long, long)? right_res = IsBST(node.right);
+
+			long min = node.val;
+			long max = node.val;
+			if (left_res != null)
+			{
+				min = Math.Min(min, left_res.Value.Item2);
+				max = Math.Max(max, left_res.Value.Item3);
+			}
+
+			if (right_res != null)
+			{
+				min = Math.Min(min, right_res.Value.Item2);
+				max = Math.Max(max, right_res.Value.Item3);
+			}
+
+			// 在左子树不为null的情况下，如果左子树不是BST或者当前节点不大于左子树的最大值，此树不为BST；右子树情况亦类似。
+			return (left_res != null && (!left_res.Value.Item1 || node.val <= left_res.Value.Item3))
+				|| (right_res != null && (!right_res.Value.Item1 || node.val >= right_res.Value.Item2))
+				? (false, min, max) : (true, min, max);
+		}
+	}
 }

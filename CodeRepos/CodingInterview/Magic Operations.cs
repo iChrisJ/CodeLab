@@ -70,12 +70,12 @@ namespace CodingInterview.Magic_Operations
 			return sum / length;
 		}
 
-		public static void Main()
-		{
-			int[] arr1 = { 1, 2, 5 };
-			int[] arr2 = { 2, 3, 4, 5, 6 };
-			Console.WriteLine(MaxOps(arr1, arr2));
-			Console.ReadKey();
-		}
+		//public static void Main()
+		//{
+		//	int[] arr1 = { 1, 2, 5 };
+		//	int[] arr2 = { 2, 3, 4, 5, 6 };
+		//	Console.WriteLine(MaxOps(arr1, arr2));
+		//	Console.ReadKey();
+		//}
 	}
 }
